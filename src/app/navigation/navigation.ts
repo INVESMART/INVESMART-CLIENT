@@ -14,32 +14,30 @@ export const navigation = [
                 'url'  : '/home',
                 'badge': {
                     'title': 25,
+                    'bg'   : '#FFFFFF',
+                    'fg'   : '#0A0000'
+                }
+            },
+            {
+                'id'      : 'clients',
+                'title'   : 'Clients',
+                'translate': 'NAV.CLIENTS',
+                'type'    : 'item',
+                'icon'    : 'group',
+                'url'  : '/clients',
+                'badge': {
+                    'title': 25,
                     'bg'   : '#F44336',
                     'fg'   : '#FFFFFF'
                 }
             },
             {
-                'id'      : 'dashboards',
-                'title'   : 'Portfolio',
-                'translate': 'NAV.PORTFOLIO',
-                'type'    : 'collapse',
-                'icon'    : 'work',
-                'children': [
-                    {
-                        'id'   : 'project',
-                        'title': 'Project',
-                        'type' : 'item',
-                        'url'  : '/apps/dashboards/project'
-                    }
-                ]
-            },
-            {
-                'id'   : 'scrumboard',
-                'title': 'Scrumboard',
-                'translate': 'NAV.SCRUMBOARD',
+                'id'   : 'courses',
+                'title': 'Courses',
+                'translate': 'NAV.COURSES',
                 'type' : 'item',
-                'icon' : 'assessment',
-                'url'  : '/scrumboard'
+                'icon' : 'import_contacts',
+                'url'  : '/courses'
             },
             {
                 'id'   : 'calendar',
@@ -54,6 +52,33 @@ export const navigation = [
                     'fg'   : '#FFFFFF'
                 }
             },
+            {
+                'id'   : 'us',
+                'title': 'Us',
+                'translate': 'NAV.US',
+                'type' : 'item',
+                'icon' : 'work',
+                'url'  : '/us',
+                'badge': {
+                    'title': '!',
+                    'bg'   : '#F44336',
+                    'fg'   : '#FFFFFF'
+                }
+            },
+            {
+                'id'   : 'messaging',
+                'title': 'Messaging',
+                'translate': 'NAV.MESSAGING',
+                'type' : 'item',
+                'icon' : 'email',
+                'url'  : '/messaging',
+                'badge': {
+                    'title': '!',
+                    'bg'   : '#FFFFFF',
+                    'fg'   : '#0A0000'
+                }
+            },
+
             {
                 'id'      : 'tools',
                 'title'   : 'Tools',

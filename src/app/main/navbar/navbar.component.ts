@@ -8,7 +8,7 @@ import { navigation } from 'app/navigation/navigation';
 import { FuseNavigationService } from '@fuse/components/navigation/navigation.service';
 
 @Component({
-    selector     : 'fuse-navbar',
+    selector     : 'invesmart-navbar',
     templateUrl  : './navbar.component.html',
     styleUrls    : ['./navbar.component.scss'],
     encapsulation: ViewEncapsulation.None

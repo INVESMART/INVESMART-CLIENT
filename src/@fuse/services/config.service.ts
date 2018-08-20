@@ -13,7 +13,7 @@ const DEFAULT_CONFIG = {
         mode            : 'fullwidth' // 'boxed', 'fullwidth'
     },
     colorClasses    : {
-        toolbar: 'mat-grey-500-bg',
+        toolbar: 'mat-light-blue-800-bg',
         navbar : 'mat-fuse-dark-700-bg',
         footer : 'mat-fuse-dark-900-bg'
     },

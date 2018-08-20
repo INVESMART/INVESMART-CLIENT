@@ -9,11 +9,11 @@
         <!-- / TOOLBAR: Above -->
 
         <!-- NAVBAR: Top -->
-        <fuse-navbar layout="horizontal"
+        <invesmart-navbar layout="horizontal"
                      class="top-navbar" fxHide fxShow.gt-md
                      [ngClass]="fuseSettings.colorClasses.navbar"
                      *ngIf="fuseSettings.layout.navigation === 'top'">
-        </fuse-navbar>
+        </invesmart-navbar>
         <!-- / NAVBAR: Top -->
 
         <div id="wrapper">
@@ -24,7 +24,7 @@
                           [lockedOpen]="'gt-md'"
                           class="left-navbar" [ngClass]="fuseSettings.colorClasses.navbar"
                           *ngIf="fuseSettings.layout.navigation === 'left' || fuseSettings.layout.navigation === 'top'">
-                <fuse-navbar layout="vertical"></fuse-navbar>
+                <invesmart-navbar layout="vertical"></invesmart-navbar>
             </fuse-sidebar>
             <!-- / NAVBAR: Left -->
 
@@ -46,7 +46,7 @@
                           [lockedOpen]="'gt-md'"
                           class="right-navbar" [ngClass]="fuseSettings.colorClasses.navbar"
                           *ngIf="fuseSettings.layout.navigation === 'right'">
-                <fuse-navbar layout="vertical"></fuse-navbar>
+                <invesmart-navbar layout="vertical"></invesmart-navbar>
             </fuse-sidebar>
             <!-- / NAVBAR: Right -->
 

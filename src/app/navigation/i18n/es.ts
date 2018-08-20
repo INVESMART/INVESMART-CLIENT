@@ -9,6 +9,10 @@ export const locale = {
             'EDIT_INDICATOR': 'Editar indicador',
             'NEW_INDICATOR': 'Editar indicador',
             'TOOLS': 'Herramientas',
+            'CLIENTS': 'Clientes',
+            'COURSES': 'Cursos',
+            'US': 'Nosotros',
+            'MESSAGING': 'Mensajería',
             'CALENDAR': 'Calendario',
             'SCRUMBOARD': 'Scrumboard',
             'PORTFOLIO': 'Portfolio'
