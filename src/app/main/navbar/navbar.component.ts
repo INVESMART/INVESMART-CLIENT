@@ -74,8 +74,8 @@ export class FuseNavbarComponent implements OnDestroy
         this.sidebarService.getSidebar(key).toggleFold();
     }
 
-    isToggleSidebarFolded(key)
+    isToggleSidebarFolded(key) : boolean
     {
-      this.sidebarService.getSidebar(key).isFolded();
+      return this.sidebarService.getSidebar(key).isFolded();
     }
 }
