@@ -36,7 +36,7 @@ export const navigation = [
                 'title': 'Courses',
                 'translate': 'NAV.COURSES',
                 'type' : 'item',
-                'icon' : 'import_contacts',
+                'icon' : 'school',
                 'url'  : '/courses'
             },
             {
