@@ -17,6 +17,7 @@ import { HomeModule } from './main/content/home/home.module';
 import {LoginModule} from "./main/login/login.module";
 import {UserService} from "./main/services/user/user.service";
 import {CalendarModule} from "angular-calendar";
+import {InvesmartClientsModule} from "./main/content/clients/contacts.module";
 import {SysgepCalendarModule} from "./main/content/calendar/calendar.module";
 
 const appRoutes: Routes = [
@@ -42,6 +43,7 @@ const appRoutes: Routes = [
         FuseSharedModule,
         SysgepMainModule,
         HomeModule,
+        InvesmartClientsModule,
         SysgepCalendarModule,
         LoginModule
     ],
