@@ -3,7 +3,7 @@ import { MatDialog, MatDialogRef } from '@angular/material';
 
 import { FuseConfirmDialogComponent } from '@fuse/components/confirm-dialog/confirm-dialog.component';
 
-import { ClientsService } from '../../../services/clients/clients.service';
+import { ClientsService } from '../../../services/client/clients.service';
 
 @Component({
     selector   : 'fuse-selected-bar',

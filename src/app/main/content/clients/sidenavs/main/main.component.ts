@@ -1,7 +1,7 @@
 import { Component, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs/Subscription';
 
-import { ClientsService } from '../../../../services/clients/clients.service';
+import { ClientsService } from '../../../../services/client/clients.service';
 
 @Component({
     selector   : 'invesmart-contacts-main-sidenav',

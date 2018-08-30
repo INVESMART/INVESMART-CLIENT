@@ -8,7 +8,7 @@ import { MatDialog } from '@angular/material';
 import { fuseAnimations } from '@fuse/animations';
 
 import { InvesmartContactsContactFormDialogComponent } from './contact-form/contact-form.component';
-import { ClientsService } from '../../services/clients/clients.service';
+import { ClientsService } from '../../services/client/clients.service';
 
 @Component({
     selector     : 'invesmart-contacts',

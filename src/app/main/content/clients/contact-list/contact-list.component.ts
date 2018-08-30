@@ -9,7 +9,7 @@ import { fuseAnimations } from '@fuse/animations';
 import { FuseConfirmDialogComponent } from '@fuse/components/confirm-dialog/confirm-dialog.component';
 
 import { InvesmartContactsContactFormDialogComponent } from '../contact-form/contact-form.component';
-import { ClientsService } from '../../../services/clients/clients.service';
+import { ClientsService } from '../../../services/client/clients.service';
 
 @Component({
     selector     : 'invesmart-contacts-contact-list',

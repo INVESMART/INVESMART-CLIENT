@@ -16,8 +16,9 @@ import { SysgepMainModule } from './main/main.module';
 import { HomeModule } from './main/content/home/home.module';
 import {LoginModule} from "./main/login/login.module";
 import {UserService} from "./main/services/user/user.service";
-import {CalendarModule} from "angular-calendar";
 import {InvesmartClientsModule} from "./main/content/clients/contacts.module";
+import {InvesmartCourseModule} from "./main/content/courses/academy.module";
+import {InvesmartTodoModule} from "./main/content/todo/todo.module";
 import {SysgepCalendarModule} from "./main/content/calendar/calendar.module";
 
 const appRoutes: Routes = [
@@ -44,6 +45,8 @@ const appRoutes: Routes = [
         SysgepMainModule,
         HomeModule,
         InvesmartClientsModule,
+        InvesmartCourseModule,
+        InvesmartTodoModule,
         SysgepCalendarModule,
         LoginModule
     ],

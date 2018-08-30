@@ -12,6 +12,7 @@ export const locale = {
             'CLIENTS': 'Clientes',
             'COURSES': 'Cursos',
             'US': 'Nosotros',
+            'TODO': 'Tareas pendientes',
             'MESSAGING': 'Mensajería',
             'CALENDAR': 'Calendario',
             'SCRUMBOARD': 'Scrumboard',

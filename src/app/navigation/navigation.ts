@@ -53,6 +53,32 @@ export const navigation = [
                 }
             },
             {
+                'id'   : 'messaging',
+                'title': 'Messaging',
+                'translate': 'NAV.MESSAGING',
+                'type' : 'item',
+                'icon' : 'email',
+                'url'  : '/messaging',
+                'badge': {
+                  'title': '!',
+                  'bg'   : '#FFFFFF',
+                  'fg'   : '#0A0000'
+                }
+            },
+            {
+                'id'       : 'to-do',
+                'title'    : 'To-Do',
+                'translate': 'NAV.TODO',
+                'type'     : 'item',
+                'icon'     : 'check_box',
+                'url'      : '/todo',
+                'badge'    : {
+                  'title': 3,
+                  'bg'   : '#FF6F00',
+                  'fg'   : '#FFFFFF'
+                }
+            },
+            {
                 'id'   : 'us',
                 'title': 'Us',
                 'translate': 'NAV.US',
@@ -65,19 +91,7 @@ export const navigation = [
                     'fg'   : '#FFFFFF'
                 }
             },
-            {
-                'id'   : 'messaging',
-                'title': 'Messaging',
-                'translate': 'NAV.MESSAGING',
-                'type' : 'item',
-                'icon' : 'email',
-                'url'  : '/messaging',
-                'badge': {
-                    'title': '!',
-                    'bg'   : '#FFFFFF',
-                    'fg'   : '#0A0000'
-                }
-            },
+
 
             {
                 'id'      : 'tools',
