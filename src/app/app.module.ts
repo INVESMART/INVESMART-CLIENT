@@ -18,7 +18,6 @@ import {LoginModule} from "./main/login/login.module";
 import {UserService} from "./main/services/user/user.service";
 import {InvesmartClientsModule} from "./main/content/clients/contacts.module";
 import {InvesmartCourseModule} from "./main/content/courses/academy.module";
-import {InvesmartTodoModule} from "./main/content/todo/todo.module";
 import {SysgepCalendarModule} from "./main/content/calendar/calendar.module";
 
 const appRoutes: Routes = [
@@ -46,7 +45,6 @@ const appRoutes: Routes = [
         HomeModule,
         InvesmartClientsModule,
         InvesmartCourseModule,
-        InvesmartTodoModule,
         SysgepCalendarModule,
         LoginModule
     ],
